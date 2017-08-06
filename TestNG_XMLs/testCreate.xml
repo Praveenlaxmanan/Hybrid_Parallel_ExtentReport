@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testcases" parallel="tests" thread-count="3">
+<parameter name="suiteType" value="Parallel"/>
+<test name="TC_02">
+<parameter name="testcaseID" value="TC_02"/>
+<parameter name="testcaseDesc" value="Verify whether user can able to upload the code from Git UI repository"/>
+<parameter name="moduleName" value="GitHub"/>
+<parameter name="testAuthor" value="Praveen"/>
+<classes>
+<class name="com.framework.libraries.Wrappers">
+<methods>
+<include name="getSuite"/>
+</methods>
+</class>
+</classes>
+</test>
+
+<test name="TC_03">
+<parameter name="testcaseID" value="TC_03"/>
+<parameter name="testcaseDesc" value="Verify whether user can able to upload the code from Git UI repository"/>
+<parameter name="moduleName" value="GitHub"/>
+<parameter name="testAuthor" value="Praveen"/>
+<classes>
+<class name="com.framework.libraries.Wrappers">
+<methods>
+<include name="getSuite"/>
+</methods>
+</class>
+</classes>
+</test>
+
+</suite>
